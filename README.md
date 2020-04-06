@@ -1,26 +1,44 @@
-# Assignment 5: Deep Image Prior
+# Deep Image Prior
+## Paper: Deep Image Prior
+https://dmitryulyanov.github.io/deep_image_prior
 
-**Due Date:** Feb 10, 2019.  
-**Submission:** in pairs, [here](https://www.dropbox.com/request/RnWMrpAGjnhKmJvU4C3q).
+### Description
+In this project I implemented and tried deep image prior paper.
+
+### Install
+
+This project requires **Python 3.x** and the following Python libraries installed:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org)
+- [matplotlib](http://matplotlib.org/)
+- [pytorch](https://pytorch.org/)
+
+You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+
+We recommend to install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
 
 
-## Submission
-You should work on the exercise in pairs, and upload it to the [submission box](https://www.dropbox.com/request/RnWMrpAGjnhKmJvU4C3q).
+### Run
+In a terminal or command window, navigate to the top-level project directory `Deep_Image_prior/` (that contains this README) and run one of the following commands:
 
-You should submit a single zip-file, `ex5-dip.zip`, with the following files:
-1. `ex5-dip.pdf`: your report.
-2. `ex5-dip.ipynb`: your notebook.
-4. `STUDENTS`: your details (use the provided template).
+```bash
+ipython notebook ex5_dip.ipynb
+```  
+or
+```bash
+jupyter notebook ex5_dip.ipynb
+```
 
-## Colab
-In this assignment, you're highly encouraged to work in [Google Colab](https://colab.research.google.com/).
+This will open the iPython Notebook software and project file in your browser.
 
-### Load notebook
-1. Clone the repositry to your computer.
-2. Browse to [Google Colab](https://colab.research.google.com/).
-3. Select the **UPLOAD** tab.
-3. Upload the notebook `ex5-dip.ipynb`.
 
-### Enable GPU
-1. Choose **Runtime -> Change runtime type** in the menu. ![Change runtime type](readme/change-runtime-type.png)
-2. Select "GPU" as **Hardware accelerator**. ![Enable GPU](readme/enable-gpu.png)
+### Data
+
+Any image(Such as those which are inside the git) can be added, you need one image to do all the learning.
+
+
+**Target**
+- `Generation`: Generate a new image with better quality.
+
+
